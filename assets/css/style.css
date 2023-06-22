@@ -67,9 +67,7 @@ textarea {
 
 #saveAll {
   background-color: #11ff00;
-  color: white;  
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;  
+  color: white;
 }
 
 .notify {
