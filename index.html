@@ -19,6 +19,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@bjnstnkvc/alert/src/alert.css">
+    
     <title>Work Day Scheduler</title>
   </head>
 
@@ -27,11 +29,17 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <span class="notify"></span>
     </header>
+
+
+    <script src="https://www.cssscript.com/demo/minimal-toast-alert/lib/Alert.js"></script>
+    
+
     <div class="container-lg px-5"></div>
     <p>
     <button id="reset" class="reset">Reset</button>
-    <button id="saveAll" class="save">Save All</button>
+    <button id="saveAll" class="save">Save All</button>    
     </p>
       <div id="hour-09" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
@@ -105,14 +113,16 @@
         </button>
       </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
-      crossorigin="anonymous"
-    ></script>
-
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+        integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+        crossorigin="anonymous">
+      </script>
+  
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.8/dayjs.min.js"></script>
+    
     <script src="./assets/js/script.js"></script>
+
   </body>
 </html>

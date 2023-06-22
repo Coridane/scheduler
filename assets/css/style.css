@@ -83,3 +83,9 @@ textarea {
   color: white;
   text-align: center;  
 }
+
+.notify {
+  position: absolute;
+  top: 220px;
+  right: 25px;
+}

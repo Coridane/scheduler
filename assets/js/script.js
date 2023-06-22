@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 // Listener for the save button beside each time block.
 $(".btn").click(function (event) {
-  event.preventDefault();
+  event.preventDefault();  
 
 // Look at any siblings of this button's parent element that have a class of description.
 // Take their value, if any, and put that in a variable called input.
@@ -76,7 +76,7 @@ $(".reset").click(function() {
 
 // This was another button that I wanted to add so that it would save all fields.
 
-$(".save").click(function(){
+$(".save").click(function(){    
   var log09 = document.getElementById("text09").value
   if (log09 !== "") {
     localStorage.setItem("09", log09)
@@ -112,7 +112,8 @@ $(".save").click(function(){
   var log17 = document.getElementById("text17").value
   if (log17 !== "") {
     localStorage.setItem("17", log17)
-  }
+  }  
+  new Alert({container: ".notify", type: "success", message: "Saved", close: false, duration: 1})  
 })
 
 })
