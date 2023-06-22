@@ -16,6 +16,8 @@ console.log(time)
 
 // Log to local storage the time as the key name and the user's input as the value.
 localStorage.setItem(time, input);
+
+new Alert({container: ".notify", type: "success", message: "Saved", close: false, duration: 1})
 })
 
 // When loading the page, pull data, if any, from these keys, to display what was saved on the page.
@@ -69,14 +71,14 @@ $(".time-block").each(function () {
 // This was an additional button I wanted to add so that local storage could be cleared out
 // so that it would be easy to start over if desired.
 
-$(".reset").click(function() {  
+$("#reset").click(function() {  
   localStorage.clear()
   location.reload()
 })
 
 // This was another button that I wanted to add so that it would save all fields.
 
-$(".save").click(function(){    
+$("#saveAll").click(function(){    
   var log09 = document.getElementById("text09").value
   if (log09 !== "") {
     localStorage.setItem("09", log09)

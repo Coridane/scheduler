@@ -36,11 +36,14 @@
     <script src="https://www.cssscript.com/demo/minimal-toast-alert/lib/Alert.js"></script>
     
 
-    <div class="container-lg px-5"></div>
-    <p>
-    <button id="reset" class="reset">Reset</button>
-    <button id="saveAll" class="save">Save All</button>    
-    </p>
+    <div class="container-lg px-5"></div>       
+       
+      <div class="row">
+        <button id="reset" class="col-2 col-md-1">Reset</button>
+        <span class="col-8 col-md-10 description" rows="3"> </span>        
+          <button id="saveAll" class="col-2 col-md-1">Save All</button>
+      </div>
+
       <div id="hour-09" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
         <textarea id="text09" class="col-8 col-md-10 description" rows="3"> </textarea>

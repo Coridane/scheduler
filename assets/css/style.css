@@ -58,30 +58,16 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.reset {
-  position: relative;
-  left: 1%;
-  width: 80px;
-}
-
-#reset {
-  border-left: 1px solid black;  
+#reset {  
   background-color: #ff7300;
-  color: white;
-  text-align: center;  
-}
-
-.save {
-  position: relative;
-  left: 86%;
-  width: 80px;
+  color: white;  
 }
 
 #saveAll {
-  border-left: 1px solid black;  
   background-color: #11ff00;
-  color: white;
-  text-align: center;  
+  color: white;  
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;  
 }
 
 .notify {
