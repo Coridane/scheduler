@@ -73,7 +73,7 @@ textarea {
 }
 
 .notify {
-  position: absolute;
-  top: 220px;
-  right: 25px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
